@@ -1,0 +1,79 @@
+npm verbose cli /usr/local/bin/node /usr/local/bin/npm
+npm info using npm@10.9.2
+npm info using node@v22.16.0
+npm verbose title npm install
+npm verbose argv "install" "--loglevel" "verbose"
+npm verbose logfile logs-max:10 dir:/Users/tanakamasaya/.npm/_logs/2025-08-02T08_57_56_624Z-
+npm verbose logfile /Users/tanakamasaya/.npm/_logs/2025-08-02T08_57_56_624Z-debug-0.log
+npm http cache https://registry.npmjs.org/expo 26ms (cache hit)
+npm http cache https://registry.npmjs.org/@expo%2fdom-webview 5ms (cache hit)
+npm http cache https://registry.npmjs.org/react 19ms (cache hit)
+npm http cache https://registry.npmjs.org/react-native 40ms (cache hit)
+npm http cache https://registry.npmjs.org/react 18ms (cache hit)
+npm http cache https://registry.npmjs.org/@expo%2fmetro-runtime 6ms (cache hit)
+npm http cache https://registry.npmjs.org/react-native-webview 7ms (cache hit)
+npm http cache https://registry.npmjs.org/expo-notifications 6ms (cache hit)
+npm http cache https://registry.npmjs.org/expo-sqlite 7ms (cache hit)
+npm http cache https://registry.npmjs.org/@react-native-async-storage%2fasync-storage 5ms (cache hit)
+npm http cache https://registry.npmjs.org/react-dom 23ms (cache hit)
+npm http cache https://registry.npmjs.org/react-native-paper 15ms (cache hit)
+npm http cache https://registry.npmjs.org/react-native-safe-area-context 5ms (cache hit)
+npm http cache https://registry.npmjs.org/@expo%2fvector-icons 4ms (cache hit)
+npm http cache https://registry.npmjs.org/@react-navigation%2fnative 5ms (cache hit)
+npm http cache https://registry.npmjs.org/@react-navigation%2fbottom-tabs 5ms (cache hit)
+npm http cache https://registry.npmjs.org/react-native-screens 7ms (cache hit)
+npm http cache https://registry.npmjs.org/recoil 3ms (cache hit)
+npm http cache https://registry.npmjs.org/recoil-sync 3ms (cache hit)
+npm http cache https://registry.npmjs.org/@babel%2fcore 4ms (cache hit)
+npm http cache https://registry.npmjs.org/@types%2freact 13ms (cache hit)
+npm http cache https://registry.npmjs.org/@types%2freact-native 10ms (cache hit)
+npm http cache https://registry.npmjs.org/typescript 40ms (cache hit)
+npm http cache https://registry.npmjs.org/jest 8ms (cache hit)
+npm http cache https://registry.npmjs.org/node-notifier 10ms (cache hit)
+npm http cache https://registry.npmjs.org/@testing-library%2freact-native 4ms (cache hit)
+npm http cache https://registry.npmjs.org/react-test-renderer 16ms (cache hit)
+npm http cache https://registry.npmjs.org/react 18ms (cache hit)
+npm verbose stack Error: unable to resolve dependency tree
+npm verbose stack     at #failPeerConflict (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1363:25)
+npm verbose stack     at #loadPeerSet (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1356:29)
+npm verbose stack     at async #loadPeerSet (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1297:11)
+npm verbose stack     at async #buildDepStep (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:904:11)
+npm verbose stack     at async Arborist.buildIdealTree (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:181:7)
+npm verbose stack     at async Promise.all (index 1)
+npm verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:131:5)
+npm verbose stack     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:150:5)
+npm verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+npm verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+npm error code ERESOLVE
+npm error ERESOLVE unable to resolve dependency tree
+npm error
+npm error While resolving: eyedrop-logger@1.0.0
+npm error Found: react@18.2.0
+npm error node_modules/react
+npm error   react@"^18.2.0" from the root project
+npm error   peer react@">=16.8.0" from @testing-library/react-native@12.9.0
+npm error   node_modules/@testing-library/react-native
+npm error     dev @testing-library/react-native@"^12.0.0" from the root project
+npm error   1 more (react-native)
+npm error
+npm error Could not resolve dependency:
+npm error peer react@"^19.1.1" from react-test-renderer@19.1.1
+npm error node_modules/react-test-renderer
+npm error   peer react-test-renderer@">=16.8.0" from @testing-library/react-native@12.9.0
+npm error   node_modules/@testing-library/react-native
+npm error     dev @testing-library/react-native@"^12.0.0" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error /Users/tanakamasaya/.npm/_logs/2025-08-02T08_57_56_624Z-eresolve-report.txt
+npm verbose cwd /Users/tanakamasaya/Desktop/coding用の親フォルダ/EyeDropLogger
+npm verbose os Darwin 24.5.0
+npm verbose node v22.16.0
+npm verbose npm  v10.9.2
+npm verbose exit 1
+npm verbose code 1
+npm error A complete log of this run can be found in: /Users/tanakamasaya/.npm/_logs/2025-08-02T08_57_56_624Z-debug-0.log

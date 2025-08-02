@@ -1,0 +1,8 @@
+[build]
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20.11.1"
+
+[dev]
+  command = "expo start --web"
